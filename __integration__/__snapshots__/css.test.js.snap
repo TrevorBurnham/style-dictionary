@@ -10,6 +10,8 @@ exports[`integration css css/variables should match snapshot 1`] = `
   --breakpoint-xs: 304px;
   --breakpoint-sm: 768px;
   --breakpoint-md: calc(304px / 768px);
+  --breakpoint-unitless: 100;
+  --breakpoint-unitless-percent: 100;
   --color-background-primary: #ffffff;
   --color-background-secondary: #f3f4f4;
   --color-background-tertiary: #dee1e1;
@@ -324,6 +326,7 @@ exports[`integration css css/variables with references should match snapshot 1`]
   --color-core-green-200: #c2f2bd;
   --color-core-green-100: #d7f4d7;
   --color-core-green-0: #ebf9eb;
+  --breakpoint-unitless: 100;
   --breakpoint-sm: 768px;
   --breakpoint-xs: 304px;
   --color-font-success: var(--color-core-green-1000);
@@ -342,6 +345,7 @@ exports[`integration css css/variables with references should match snapshot 1`]
   --color-background-tertiary: var(--color-core-neutral-200);
   --color-background-secondary: var(--color-core-neutral-100);
   --color-background-primary: var(--color-core-neutral-0);
+  --breakpoint-unitless-percent: 100;
   --breakpoint-md: calc(var(--breakpoint-xs) / var(--breakpoint-sm));
   --color-font-interactive-disabled: var(--color-font-tertiary);
   --color-font-interactive-active: var(--color-brand-secondary);
@@ -362,6 +366,8 @@ exports[`integration css css/variables with selector should match snapshot 1`] =
   --breakpoint-xs: 304px;
   --breakpoint-sm: 768px;
   --breakpoint-md: calc(304px / 768px);
+  --breakpoint-unitless: 100;
+  --breakpoint-unitless-percent: 100;
   --color-background-primary: #ffffff;
   --color-background-secondary: #f3f4f4;
   --color-background-tertiary: #dee1e1;
